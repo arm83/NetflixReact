@@ -1,4 +1,4 @@
-// The following are episodes for Arrested Development. 
+ // The following are episodes for Arrested Development. 
 
 const episodes = [
   { id: 's06e01', title: 'Pilot' },
@@ -24,62 +24,61 @@ const addToPlaylist = episodes.concat(finaleEpisode);
 
 for (episodes.length){
 	if (episodes.id === s06e01){
-    	episodeRemove = episodes.filter(function(episodes.id) {
-    	return episodes !== episodes.id;
+    	episodeRemove = episodes.filter(function(episodes) {
+    	return episodes.id === episodes.id;
     	});	
     }
 	
 	else if (episodes.id === s06e02){
-	    episodeRemove = episodes.filter(function(episodes.id) {
-    	return episodes !== episodes.id;
+	    episodeRemove = episodes.filter(function(episodes) {
+    	return episodes.id === episodes.id;
     	});
     }	
 
 	else if (episodes.id === s06e03){
-	    episodeRemove = episodes.filter(function(episodes.id) {
-    	return episodes !== episodes.id;
+	    episodeRemove = episodes.filter(function(episodes) {
+    	return episodes.id === episodes.id;
     	});
     }
 
     else if (episodes.id === s06e04){
-	    episodeRemove = episodes.filter(function(episodes.id) {
-    	return episodes !== episodes.id;
+	    episodeRemove = episodes.filter(function(episodes) {
+    	return episodes.id === episodes.id;
     	});
     }
 
     else if (episodes.id === s06e05){
-	    episodeRemove = episodes.filter(function(episodes.id) {
-    	return episodes !== episodes.id;
+	    episodeRemove = episodes.filter(function(episodes) {
+    	return episodes.id === episodes.id;
     	});
     }
 
     else if (episodes.id === s06e06){
-	    episodeRemove = episodes.filter(function(episodes.id) {
-    	return episodes !== episodes.id;
+	    episodeRemove = episodes.filter(function(episodes) {
+    	return episodes.id === episodes.id;
     	});
     }
 
     else if (episodes.id === s06e07){
-	    episodeRemove = episodes.filter(function(episodes.id) {
-    	return episodes !== episodes.id;
+	    episodeRemove = episodes.filter(function(episodes) {
+    	return episodes.id === episodes.id;
     	});
     }
 
     else if (episodes.id === s06e08){
-	    episodeRemove = episodes.filter(function(episodes.id) {
-    	return episodes !== episodes.id;
+	    episodeRemove = episodes.filter(function(episodes) {
+    	return episodes.id === episodes.id;
     	});
     }
 
     else if (episodes.id === s06e09){
-	    episodeRemove = episodes.filter(function(episodes.id) {
-    	return episodes !== episodes.id;
+	    episodeRemove = episodes.filter(function(episodes) {
+    	return episodes.id === episodes.id;
     	});
     }
 
     else if (episodes.id === s06e10){
-	    episodeRemove = episodes.filter(function(episodes.id) {
-    	return episodes !== episodes.id;
+	    episodeRemove = episodes.filter(function(episodes) {
     	});
     }
 
@@ -95,4 +94,4 @@ for (episodes.length){
 
 // You might want to create a function which shows the viewer the next episode. 
 // ** this would be a useful function after you have filtered or sliced the previous episode object out of the array ** 
-const getNextEpisodeInPlaylist = 
+//const getNextEpisodeInPlaylist = 
